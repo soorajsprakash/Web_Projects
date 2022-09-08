@@ -1,0 +1,97 @@
+body {
+    margin: 30px 0;
+    background-color: rgb(108, 75, 139);
+
+}
+
+.main {
+    background-color: rgb(31, 18, 44);
+    width: 220px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+
+}
+
+p {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-container {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(117, 112, 151);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(209, 205, 205);
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 3px;
+}
+
+.calculation-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-remove-persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#add-btn,
+#remove-btn {
+    background-color: rgb(83, 71, 157);
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: 5px 10px;
+
+}
+
+#add-btn {
+    margin-left: 0;
+}
+
+.amount-per-person-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#num-of-persons,
+.amount {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#split-amount {
+    margin-left: 5px;
+}

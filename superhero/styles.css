@@ -4,10 +4,26 @@ body {
 
 }
 
-.main {
+/* .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700px;   
+    height: 700px;
+    padding: 50px;
+} */
+
+.section {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    /* width: 70%;
+    height: 70%; */
+    padding: 50px;
+    margin: 0 5%;
+
 }
 
 .search-hero {
@@ -15,7 +31,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
 .input-container {
@@ -30,7 +45,7 @@ body {
 }
 
 span {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 #userInput {
@@ -40,18 +55,19 @@ span {
     color: rgb(30, 13, 13);
     font-weight: bold;
     background-color: rgb(117, 112, 151);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px 10px;
+    font-size: 30px;
 }
 
 button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    /* padding: 3px 8px; */
-    padding: 5px 10px;
-    margin-left: 5px;
+    padding: 5px 20px;
+    margin-left: 15px;
     outline: none;
+    font-size: 30px;
 }
 
 #search-btn {
@@ -64,13 +80,15 @@ button {
 
 .container {
     background-color: rgb(31, 18, 44);
-    width: 230px;
-    height: 350px;
+    /* width: 230px;
+    height: 350px; */
+    width: 500px;
+    height: 730px;
     margin: auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 30px 10px;
     justify-content: space-evenly;
 
     color: white;
@@ -81,20 +99,22 @@ button {
 .img-container {
     margin-top: 10px;
     text-align: center;
+
 }
 
 img {
-    width: 180px;
-    height: 180px;
+    width: 450px;
+    height: 350px;
     object-fit: contain;
 }
 
 
 /* STATS */
 #name {
+    margin-top: 10px;
     margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 26px;
+    font-weight: 600;
+    font-size: 60px;
 }
 
 #stats {
@@ -105,5 +125,5 @@ img {
 
 p {
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 25px;
 }

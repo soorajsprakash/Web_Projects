@@ -6,8 +6,8 @@ body {
 
 .main {
     background-color: rgb(31, 18, 44);
-    width: 350px;
-    height: 300px;
+    width: 700px;
+    height: 700px;
     margin: auto;
     border-radius: 20px;
     display: flex;
@@ -16,21 +16,22 @@ body {
 }
 
 .img-container {
-    margin: 0 auto;
+    margin: 20px auto 30px;
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     object-fit: contain;
     object-position: center;
 }
 
 button {
     margin: auto;
-    margin-top: 10px;
+    /* margin-top: 20px; */
     border-radius: 20px;
-    width: 70px;
+    width: 20%;
+    font-size: 40px;
     border: none;
     background-color: cornflowerblue;
     font-weight: bold;

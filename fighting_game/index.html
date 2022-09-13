@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fighting Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="menu">
+            <div class="p1Info">
+                <div id="p1Name">Player 1</div>
+                <img id="p1" src="./images/p1.gif" />
+                <div class="playerControls">
+                    <div class="AttackDiv">
+                        <p>Q:</p>
+                        <span id="attack">
+                            Attack
+                        </span>
+                    </div>
+                    <div class="HealDiv">
+                        <p>A:</p>
+                        <span id="heal">
+                            Heal
+                        </span>
+                    </div>
+                </div>
+                <div id="p1Health">100</div>
+            </div>
+            <button id="play">Fast Fwd</button>
+            <div class="p2Info">
+                <div id="p2Name">Player 2</div>
+                <img id="p2" src="./images/p2.gif" />
+                <div class="playerControls">
+                    <div class="AttackDiv">
+                        <p>P:</p>
+                        <span id="attack">
+                            Attack
+                        </span>
+                    </div>
+                    <div class="HealDiv">
+                        <p>L:</p>
+                        <span id="heal">
+                            Heal
+                        </span>
+                    </div>
+                </div>
+                <div id="p2Health">100</div>
+            </div>
+        </div>
+
+        <div class="resultContainer">
+            <div id="result"></div>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <audio id="p1attack" controls style="display:none">
+        <source src="sounds/fastpunch.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p1heal" controls style="display:none">
+        <source src="sounds/fastheal.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p2attack" controls style="display:none">
+        <source src="sounds/quickhit.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p2heal" controls style="display:none">
+        <source src="sounds/quickheal.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="victory" controls style="display:none">
+        <source src="sounds/victory.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

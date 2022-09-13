@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+  background: 'blue';
+  background-color: rgb(149, 116, 180);
+  font-family: 'VT323', monospace;
+}
+
+.main {
+  background-color: rgb(108, 75, 139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 600px;
+  border-radius: 20px;
+  margin: 100px auto;
+  padding: 50px;
+}
+
+.menu {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: auto;
+  height: 200px;
+}
+
+
+p {
+  font-size: 30px;
+}
+
+.AttackDiv,
+.HealDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin: 10px 0;
+}
+
+
+span#attack {
+  font-size: 30px;
+  background-color: #FFFF01;
+  ;
+  border-radius: 20px;
+  padding: 3px 10px;
+  margin-left: 5px;
+}
+
+span#heal {
+  font-size: 30px;
+  background-color: #7DFFFF;
+  ;
+  border-radius: 20px;
+  padding: 3px 10px;
+  margin-left: 5px;
+}
+
+.p1Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 300px;
+}
+
+.p2Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 300px;
+}
+
+#p1Name,
+#p2Name {
+  font-size: 70px;
+}
+
+#p1Health,
+#p2Health {
+  font-size: 60px;
+}
+
+.playerControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px
+}
+
+#result {
+  font-size: 70px;
+  color: #3dff3d;
+}
+
+button {
+  width: 130px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  color: rgb(103, 49, 49);
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 1px dashed black;
+  color: white;
+}
+
+
+#play {
+  background: #4a02cf;
+}
+
+#reset {
+  margin-top: 50px;
+  background-color: #397397;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

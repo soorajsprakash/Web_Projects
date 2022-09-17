@@ -1,0 +1,24 @@
+<%- include('partials/head') %>
+
+
+
+    <%- include('partials/navbar') %>
+
+        <div class="container">
+            <h1>Ugly Tweets</h1>
+            <button><a href="/uglytweets/newtweet">Add New</a></button>
+            <ul class="tweetList">
+                <% for (each of allTweets) { %>
+                    <li>
+                        "<%= each.tweet %>" - <b>
+                                <%- each.username %>
+                                    <a href="/uglytweets/<%= each.id %>">See more</a>
+                            </b>
+                    </li>
+                    <% } %>
+
+            </ul>
+        </div>
+
+
+        <%- include('partials/end') %>

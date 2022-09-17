@@ -1,0 +1,25 @@
+<%- include('partials/head') %>
+
+
+
+    <%- include('partials/navbar') %>
+        <div class="container">
+            <h1>New Tweet</h1>
+            <form action="/uglytweets" method="post">
+                <section>
+                    <label for="username">Username</label>
+                    <br>
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </section>
+                <section>
+                    <label for="tweet">Tweet</label>
+                    <br>
+                    <textarea id="tweet" name="tweet" cols="20" rows="5"></textarea>
+                    <br>
+                </section>
+                <button>Send Tweet</button>
+            </form>
+            <a href="/uglytweets">Back to UglyTweeks</a>
+        </div>
+
+        <%- include('partials/end') %>

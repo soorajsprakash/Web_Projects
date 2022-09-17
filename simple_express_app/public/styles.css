@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: aquamarine;
+}
+
+div.home {
+    font-size: 100px;
+    font-style: bold;
+}
+
+.image img {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 80px;
+}
+
+button {
+    margin-bottom: 50px;
+}
+
+.tweetList li {
+    font-size: 30px;
+}
+
+.tweetList li a {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.pOfShowEach {
+    font-size: 30px;
+    font-style: italic;
+}

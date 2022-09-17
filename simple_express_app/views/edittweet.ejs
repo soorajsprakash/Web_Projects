@@ -1,0 +1,20 @@
+<%- include('partials/head') %>
+
+
+
+    <%- include('partials/navbar') %>
+
+        <div class="container">
+            <h1>
+                Edit Tweet
+            </h1>
+            <form method="POST" action="/uglytweets/<%=eachTweet.id%>?_method=PATCH">
+                <textarea name="tweet" id="tweet" cols="30" rows="10"><%= eachTweet.tweet %></textarea>
+                <br>
+                <button>Save</button>
+            </form>
+
+        </div>
+
+
+        <%- include('partials/end') %>
